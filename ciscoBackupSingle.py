@@ -34,10 +34,10 @@ client.connect(host, username=user, password=loginPass)
 channel = client.invoke_shell()
 time.sleep(2)
 
-#enter enable secret
-#chan.send('en\n')
-#chan.send(secret +'\n')
-#time.sleep(1)
+enter enable secret
+chan.send('en\n')
+chan.send(secret +'\n')
+time.sleep(1)
 
 #terminal lenght for no paging 
 channel.send('term len 0\n')
