@@ -1,6 +1,11 @@
 # ciscoBackup
+SSH/Telnet to a Cisco device and backup the config  
+___
+# TODO
 
- SSH/Telnet to a Cisco device and backup the config  
+Add multi device functionality   
+Add email on fails
+___
+# Requirements
 
-ciscoBackupSingle : Manually backups up a device  
-*Will add mutli device functionality*
+[paramiko](http://www.paramiko.org/)
