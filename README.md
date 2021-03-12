@@ -1,5 +1,6 @@
 # ciscoBackup
-SSH/Telnet to a Cisco device and backup the config  
+
+SSH to a cisco device, take a backup of its configuration, and write it to a file
 
 # Requirements
 
@@ -10,3 +11,4 @@ SSH/Telnet to a Cisco device and backup the config
 
 Add multi device functionality   
 Add email notification on failure
+Add ability to backup Cisco ASA
