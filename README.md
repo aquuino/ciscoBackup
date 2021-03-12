@@ -1,6 +1,9 @@
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 # ciscoBackup
 
-SSH to a cisco device, take a backup of its configuration, and write it to a file
+SSH to a Cisco device, take a backup of its configuration, and write it to a file
 
 # Requirements
 
@@ -9,6 +12,7 @@ SSH to a cisco device, take a backup of its configuration, and write it to a fil
 
 # TODO
 
-Add multi device functionality   
-Add email notification on failure
-Add ability to backup Cisco ASA
+Multi-Device functionality  
+Import list of device from a file  
+Add email notification on failure  
+Add ability to backup Cisco ASA  
