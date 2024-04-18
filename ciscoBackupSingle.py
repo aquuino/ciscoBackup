@@ -13,7 +13,7 @@ import datetime
 
 #Set Date
 
-timestr = time.strftime("%Y%m%d")
+date = time.strftime("%Y%m%d")
 
 #Authentication Variables
 
@@ -48,7 +48,7 @@ output = channel.recv(999999)
 
 #Show Running Config and Print to a file
 print (config)
-filename = str(host) + "-" + str(timestr) + "_.txt"
+filename = str(host) + "-" + str(date) + "_.txt"
 file = open(filename, 'a')
 file.write(config)
 f.close
